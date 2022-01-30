@@ -2,7 +2,7 @@ from random import randint
 import os
 
 def getScore(userName):
-    os.chdir('/Users/vish/Documents/VS Code Repos/BODMAS/')
+    os.chdir('/Users/vish/Documents/Repos/BODMAS/')
     scores=dict()
     f = open('userScores.txt','r')
     for line in f:
@@ -13,7 +13,7 @@ def getScore(userName):
 
 def updateScore(userName, score):
     newUser = True
-    os.chdir('/Users/vish/Documents/VS Code Repos/BODMAS/')
+    os.chdir('/Users/vish/Documents/Repos/BODMAS/')
     f = open('userScores.txt','r')
     scores = dict()
     for line in f:
